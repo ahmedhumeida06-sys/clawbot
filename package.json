@@ -1,0 +1,12 @@
+{
+  "name": "openclaw-bot",
+  "version": "1.0.0",
+  "description": "OpenClaw 24/7 Bot for Render",
+  "main": "openclaw.json",
+  "scripts": {
+    "start": "npx openclaw gateway restart && tail -f /dev/null"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}
